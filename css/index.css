@@ -1,0 +1,35 @@
+/*
+
+    Website Color theme 
+        Monochromatic
+            high : #292929 
+            middle : #7e7e7e
+            low : #d3d3d3
+*/
+
+/* header */
+body{
+    margin: 0px;
+    background-color: #d3d3d3;
+}
+#header{
+    background-color: #292929;
+    position: relative;
+    width: 100%;
+    height: 90px;
+    color: #d3d3d3;
+    text-align: center;
+    font-family: Alatsi, sans-serif;
+    text-shadow: #7e7e7e 3px 3px;
+}
+#first_message{
+    position: absolute;
+}
+/* Mid */
+#personal_image{
+
+}
+#big_message{
+    position: absolute;
+    text-align: center;
+}
