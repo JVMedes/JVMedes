@@ -26,8 +26,20 @@ body{
     position: absolute;
 }
 /* Mid */
+#body{
+    height: 1000px;
+    position: relative;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+#prsnl_img_hldr{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
 #personal_image{
-
+    width: 200px;
+    height: inherit;
 }
 #big_message{
     position: absolute;
