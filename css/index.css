@@ -1,47 +1,35 @@
-/*
 
-    Website Color theme 
-        Monochromatic
-            high : #292929 
-            middle : #7e7e7e
-            low : #d3d3d3
-*/
-
-/* header */
 body{
-    margin: 0px;
-    background-color: #d3d3d3;
+    margin: 0;    
+    padding: 0;
+    height: 100dvh;
 }
-#header{
-    background-color: #292929;
+.keypadDivDisplay{
     position: relative;
-    width: 100%;
-    height: 90px;
-    color: #d3d3d3;
-    text-align: center;
-    font-family: Alatsi, sans-serif;
-    text-shadow: #7e7e7e 3px 3px;
+    display: flex;
+    
+    justify-content: center;
 }
-#first_message{
+img{
+    height: 30dvh;
+    top: 50%;
+}
+
+#jvPersonalimg{
+    grid-area: bottom;
+}
+
+#graduatePic{
     position: absolute;
+    top: 0;
+    left: 0;
+    transition: clip-path 1s ease-in-out;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, -25% 100%);
 }
-/* Mid */
-#body{
-    height: 1000px;
-    position: relative;
-    padding-left: 100px;
-    padding-bottom: 50px;
+#graduatePic:hover{
+    clip-path: polygon(125% 0%, 100% 0%, 100% 100%, 100% 100%);
 }
-#prsnl_img_hldr{
+#isay{
     position: absolute;
-    top: 20px;
-    right: 30px;
-}
-#personal_image{
-    width: 200px;
-    height: inherit;
-}
-#big_message{
-    position: absolute;
-    text-align: center;
+    top: -27dvh;
 }

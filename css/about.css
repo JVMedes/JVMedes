@@ -1,0 +1,48 @@
+
+
+#first_message{
+    margin: 0%;
+    padding: 1.2%;
+}
+
+/* Mid */
+
+
+#prsnl_img_hldr{
+    /* position: absolute; */
+    top: 20px;
+    left: 75%;
+    width: 200px;
+}
+#personal_image{
+    width: inherit;
+    height: inherit;
+}
+
+/* 
+#big_message{
+    position: absolute;
+    text-align: center;
+}
+#about_me{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+/* responsitivity */
+@media (max-width: 1000px) {
+    #prsnl_img_hldr {
+        left: 60%;
+    }
+}
+@media (max-width: 600px) {
+    #prsnl_img_hldr {
+        position: relative;
+        left: 15%;
+    }
+
+    #about_me{
+        width: 90%;
+    }
+}

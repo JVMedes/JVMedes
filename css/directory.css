@@ -1,0 +1,17 @@
+
+.listing_{
+    max-width: 650px;
+}
+
+.listing_ h2{
+    display: flex;
+    justify-content: center;
+}
+.listing_ h3{
+    display: flex;
+    justify-content: start;
+}
+.listing_ ul{
+    display: grid;
+    justify-content: start;
+}
