@@ -32,4 +32,6 @@ img{
 #isay{
     position: absolute;
     top: -27dvh;
+    width: 300px;
+    text-align: center;
 }
